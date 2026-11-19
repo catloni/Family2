@@ -16,9 +16,9 @@ import {
 } from './db.js';
 
 // === بيانات المشرف — غيّرها لبياناتك ===
-const ADMIN_PHONE = "0500000000";   // رقم جوال المشرف (يُستخدم للتعرف على المشرف)
-const ADMIN_PASSWORD = "admin123";  // كلمة مرور دخول المشرف (غيّرها!)
-const ADMIN_EMAIL = "admin@example.com";
+const ADMIN_PHONE = "0531228557";   // رقم جوال المشرف (يُستخدم للتعرف على المشرف)
+const ADMIN_PASSWORD = "8557@Ali";  // كلمة مرور دخول المشرف (غيّرها!)
+const ADMIN_EMAIL = "catloni10@gmail.com";
 
 let currentUser = null;
 
@@ -113,8 +113,8 @@ export function isAdmin() {
 
 // إعدادات Cloudinary (السحابة الخارجية لرفع الصور) — أنشئ حساباً مجانياً على cloudinary.com
 // من الإعدادات: Upload → Add unsigned upload preset → انسخ الاسم هنا، وانسخ Cloud name من Dashboard.
-const CLOUDINARY_CLOUD = 'YOUR_CLOUD_NAME';
-const CLOUDINARY_PRESET = 'YOUR_UPLOAD_PRESET';
+const CLOUDINARY_CLOUD = 't8wloynu';
+const CLOUDINARY_PRESET = 'Catloni';
 
 // ضغط الصورة تلقائياً قبل الرفع (تسريع كبير وتوفير المساحة)
 function compressImage(file, maxWidth = 1280, quality = 0.8) {
